@@ -7,5 +7,10 @@ Currently taylored to my setup, but can be easily modified. See comments in `mai
 - [ydotool](https://github.com/ReimuNotMoe/ydotool)
 
 ```sh
+# run with the flake (recommended)
+sudo nix develop
+python main.py
+
+# or without the flake
 sudo nix-shell -p python312 python312Packages.evdev ydotool --run "python main.py"
 ```
