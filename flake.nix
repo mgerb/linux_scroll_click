@@ -21,6 +21,7 @@
           python312
           python312Packages.evdev
           ydotool
+          xdotool
         ];
 
         shellHook = ''
