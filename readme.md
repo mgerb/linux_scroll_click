@@ -18,5 +18,5 @@ sudo nix develop
 python main.py
 
 # or without the flake
-sudo nix-shell -p python312 python312Packages.evdev ydotool --run "python main.py"
+sudo nix-shell -p python312 python312Packages.evdev ydotool xdotool --run "python main.py"
 ```
